@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav {
+    background-color: #5b359d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav__logo {
+    height: 45px;
+}
+.nav__burger{
+    height: 20px;
+}
+.nav__brand {
+    color: white;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 500;
+}
+.nav__items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0 20px 12%;
+}
+.nav__item {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+.header {
+    background-image: url(./img/noz-portail-1491.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #5b359d;
+    text-decoration: none;
+    padding: 15px;
+}
+.header__brand {
+    color: white;
+    width: 100%;
+    font-style: italic;
+}
+.header__logo {
+    height: 30px;
+    text-align: center;
+}
+.header__title {
+    color: white;
+    font-size: 2em;
+}
+.main__text {
+    text-align: center;
+    font-size: 1.7em;
+    padding: 0 10px;
+}
+.section-args {
+    text-align: center;
+}
+.section-args__article__text {
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.section-comment__comment {
+    text-align: center;
+    font-size: 1.2em;
+}
+.section-comment__author {
+    text-align: center;
+    color: #ad9ace;
+}
+.footer { 
+    background-color: #5b359d;
+    padding: 10px 0 1px 0;
+}
+.footer__text {
+    padding: 0 50px;
+    text-align: center;
+    color: white;
+}
+.footer__icones {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.footer__link {
+    padding-left: 15px;
+}
+.footer__link__title {
+    color: #ad9ace;
+}
+.footer__link__list , .footer__link__list a {
+    color: white;
+    text-decoration: none;
+}
