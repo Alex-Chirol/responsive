@@ -15,6 +15,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    text-decoration: none;
 }
 
 .nav__logo {
@@ -201,5 +202,11 @@ body {
         gap: 100px;
         flex-wrap: nowrap;
         align-items: inherit;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .main {
+        max-width: 70%;
+        margin: 0 auto;
     }
 }
