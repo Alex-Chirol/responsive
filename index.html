@@ -16,7 +16,7 @@
                 <img class="nav__logo" src="./img/Rectangle4.png" alt="logo">
                 <h1 class="nav__brand">Mon petit graphisme</h1>
             </a>
-            <img class="nav__burger" src="./img/Vector.png" alt="burger">
+            <img id="toggleNavbarButton" class="nav__burger" src="./img/Vector.png" alt="burger">
         </div>
         <div class="nav__items">
             <a class="nav__item" href="#">Accueil</a>
@@ -105,6 +105,15 @@
             </div>
         </div>
     </footer>
+    <script>
+        const toggleButton = document.getElementById('toggleNavbarButton');
+
+        const navbarLinks = document.querySelector('.nav__items');
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('is-open');
+        })
+    </script>
 </body>
 
 </html>
